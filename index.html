@@ -3,13 +3,13 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Home - Knowledge Base</title>
+		<title>Home - Bootstrap Blog</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 	</head>
 	<body>
-		<nav class="navbar navbar-light bg-light">
+		<nav class="navbar navbar-light bg-warning">
 			<div class="container">
-				<a href="index.html" class="navbar-brand me-0"><img src="img/40x40.png" alt="Brand Logo" class="me-2"> Knowledge Base</a>
+				<a href="index.html" class="navbar-brand me-0"><img src="img/me.jpg" width="40px" height="40px" alt="Brand Logo" class="me-2"> Bootstrap Blog</a>
 				<div class="dropdown">
 					<button type="button" class="btn btn-secondary btn-sm dropdown-toggle" id="dropdownLanguage" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">English</button>
 					<div class="dropdown-menu" aria-labelledby="dropdownLanguage">
@@ -20,6 +20,16 @@
 				</div>
 			</div>
 		</nav>
+		<main>
+			<div class="container mt-3 mb-5">
+				<form class="mb-5">
+					<div class="input-group input-group-lg">
+						<input type="search" name="search" class="form-control" id="search" placeholder="How can we help you?" aria-label="Search for..." aria-describedby="buttonSearch">
+						<button type="submit" class="btn btn-danger" id="buttonSearch">Search</button>
+					</div>
+				</form>
+			</div>
+		</main>
 		
 		<script src="js/bootstrap.bundle.min.js"></script>
 	</body>
